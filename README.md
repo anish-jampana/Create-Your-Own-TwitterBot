@@ -1,6 +1,6 @@
 # Create Your Own Twitter Bot
 ## Table of Contents
-[I'm an inline-style link](google.com)
+[I'm a link] (https://github.com/anish-jampana/Create-Your-Own-TwitterBot/blob/main/README.md#what-you-will-need-to-start)
 * Setting Up A Twitter Developer Account
 * Importing Tweepy
 * Twitter Bot Source Code!

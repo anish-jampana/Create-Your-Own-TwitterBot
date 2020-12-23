@@ -42,5 +42,7 @@ Specifically for Python 3.7 (in my case):
 pip3 install -U git+https://github.com/tweepy/tweepy.git@2efe385fc69385b57733f747ee62e6be12a1338b
 ```
 If ```pip3``` doesn't work, try just ```pip```.
+
 ## Twitter Bot Source Code!
-Right next to the settings icon for your project, there should be a key icon on the far right. Click on that to access the necessary keys and tokens for this project. You will need to retrieve the following keys.
+Go to **twitterbot.py** to find the exact source code for this project. 
+Note: You will need to replace **tweets.txt** with another txt file to read through. I've included **sample.txt** in this repository that you can use just to test the bot, but later on, you may want to play around with your own txt file for the bot to tweet.

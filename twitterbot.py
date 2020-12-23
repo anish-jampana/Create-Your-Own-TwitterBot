@@ -13,7 +13,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 # txt file filled with my tweets (line by line, must be less than 280 char)
-file = open("/Users/anishjampana/Downloads/tweets.txt", "r")
+file = open("/Users/anishjampana/Downloads/tweets.txt", "r") # replace tweets.txt with sample.txt or your own txt file.
 
 # reads line by line
 filelines = file.readlines()

@@ -14,4 +14,4 @@ for line in filelines:
       api.update_status(line)
   else:
       pass
-  sleep(30)
+  sleep(86400)

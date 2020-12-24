@@ -4,7 +4,7 @@
 * [Setting Up A Twitter Development Account](https://github.com/anish-jampana/Create-Your-Own-TwitterBot#setting-up-a-twitter-development-account)
 * [Importing Tweepy](https://github.com/anish-jampana/Create-Your-Own-TwitterBot#importing-tweepy)
 * [Twitter Bot Source Code](https://github.com/anish-jampana/Create-Your-Own-TwitterBot#twitter-bot-source-code)
-* [A Fully Functional Twitter Bot!](https://github.com/anish-jampana/Create-Your-Own-TwitterBot#twitter-bot-source-code)
+* [A Fully Functional Twitter Bot!](https://github.com/anish-jampana/Create-Your-Own-TwitterBot/blob/main/README.md#a-fully-functional-twitter-bot)
 
 ## What you will need to start
 ### Install Python (If you haven't already)
@@ -55,3 +55,6 @@ Note: You will need to replace **tweets.txt** with another txt file to read thro
 **tweetfile.py** is a python file that will allow to tweet line by line from a txt file. You can set it at whatever interval you like but for this project, it is set to 86400 seconds (24 hours). Once again, you need to copy and paste **tweetfile.py** to **twitterbot.py** to use it.
 
 ## A Fully Functional Twitter Bot!
+Once you have completed the above steps, you should have a fully working twitter bot! Congrats! Remember, however, that you can only run this locally on your computer as it hasn't been implemented on a server. To run this locally on your terminal, type in your filepath using ```cd filepath/``` up until the python file and press Enter. Then type ```python3 [nameoffile].py``` to test and run the program. 
+
+Note: If you want to run the file on a working server for free, go to https://www.pythonanywhere.com/ and create an account. Go to files on the site and upload **twitterbot[server].py** from this repository and create a task on the site that runs **twitterbot[server].py** automatically, free of charge, on a daily basis.

@@ -1,7 +1,7 @@
 # Create Your Own Twitter Bot
 
 ## Copyright and License
-© Anish Jampana, University of Illinois at Urbana-Champaign
+© Anish R Jampana, University of Illinois at Urbana-Champaign
 
 Licensed under [GNU General Public License v3.0](LICENSE).
 

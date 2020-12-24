@@ -1,4 +1,10 @@
 # Create Your Own Twitter Bot
+
+## Copyright and License
+© Anish Jampana, University of Illinois at Urbana-Champaign
+
+Licensed under [GNU General Public License v3.0](LICENSE).
+
 ## Table of Contents
 * [What You Will Need To Start](https://github.com/anish-jampana/Create-Your-Own-TwitterBot/blob/main/README.md#what-you-will-need-to-start)
 * [Setting Up A Twitter Development Account](https://github.com/anish-jampana/Create-Your-Own-TwitterBot#setting-up-a-twitter-development-account)

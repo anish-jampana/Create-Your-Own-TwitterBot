@@ -3,7 +3,8 @@
 * [What You Will Need To Start](https://github.com/anish-jampana/Create-Your-Own-TwitterBot/blob/main/README.md#what-you-will-need-to-start)
 * [Setting Up A Twitter Development Account](https://github.com/anish-jampana/Create-Your-Own-TwitterBot#setting-up-a-twitter-development-account)
 * [Importing Tweepy](https://github.com/anish-jampana/Create-Your-Own-TwitterBot#importing-tweepy)
-* [Twitter Bot Source Code!](https://github.com/anish-jampana/Create-Your-Own-TwitterBot#twitter-bot-source-code)
+* [Twitter Bot Source Code](https://github.com/anish-jampana/Create-Your-Own-TwitterBot#twitter-bot-source-code)
+* [A Fully Functional Twitter Bot!](https://github.com/anish-jampana/Create-Your-Own-TwitterBot#twitter-bot-source-code)
 
 ## What you will need to start
 ### Install Python (If you haven't already)
@@ -43,6 +44,14 @@ pip3 install -U git+https://github.com/tweepy/tweepy.git@2efe385fc69385b57733f74
 ```
 If ```pip3``` doesn't work, try just ```pip```.
 
-## Twitter Bot Source Code!
+## Twitter Bot Source Code
 Go to **twitterbot.py** to find the exact source code for this project. 
-Note: You will need to replace **tweets.txt** with another txt file to read through. I've included **sample.txt** in this repository that you can use just to test the bot, but later on, you may want to play around with your own txt file for the bot to tweet.
+Note: You will need to replace **tweets.txt** with another txt file to read through. I've included **sample.txt** in this repository that you can use just to test the bot, but later on, you may want to play around with your own txt file for the bot to tweet. Once, you replace **tweets.txt** with your own file of choice, you will need to copy and paste either **follow.py** or **tweetfile.py** depending on how you are going to use the twitter bot.
+
+### follow.py
+**follow.py** is a python file that will allow you to follow all accounts that have followed your twitter bot each time you run **twitterbot.py** once you have copied and pasted **follow.py**
+
+### tweetfile.py
+**tweetfile.py** is a python file that will allow to tweet line by line from a txt file. You can set it at whatever interval you like but for this project, it is set to 86400 seconds (24 hours). Once again, you need to copy and paste **tweetfile.py** to **twitterbot.py** to use it.
+
+## A Fully Functional Twitter Bot!
